@@ -102,3 +102,33 @@ header h2 {
   color: grey;
   gap: 10px;  
 }
+
+/* Below CSS is for quote section */
+
+.quote {
+  background-color: #E5E7EB;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  height: 350px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  text-align: justify;
+}
+
+.quote-container p {
+  font-weight: bold;
+  margin-left: auto;
+  font-size: 20px;
+  margin-top: 20px;
+}
